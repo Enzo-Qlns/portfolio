@@ -1,0 +1,100 @@
+.flex.justify-center.items-center.w-screen.mt-20.bg-\[\#1f1f1f\].py-20,
+.flex.items-center.justify-center.p-2.bg-\[\#1a1a1a\] {
+    z-index: 9999999;
+    position: relative;
+}
+
+.mt-5.row.first {
+    margin-top: 4rem !important;
+}
+
+img.rounded-full.border-4.border-gray-800.md\:h-auto.md\:w-auto.w-5\/12.h-5\/12 {
+    width: 40vh;
+}
+
+.row strong::before {
+    content: '>';
+    color: #bdbdbd;
+    margin-right: 1rem;
+}
+
+a#place:hover {
+    color: rgb(203, 206, 208);
+}
+
+.mapSkills {
+    align-items: flex-start;
+}
+
+#individualSkills:hover {
+    background: #303030;
+    width: 105%;
+    z-index: 9999;
+}
+
+#mark {
+    display: none;
+    color: aliceblue;
+    font-size: 20px;
+    z-index: 99999;
+    position: absolute;
+    right: 24%;
+    top: 22%;
+    font-size: 30px;
+    cursor: pointer;
+    background: black;
+    border-radius: 50px;
+}
+
+#mark:hover {
+    color: rgb(203, 206, 208);
+}
+
+iframe {
+    position: absolute;
+    width: 57%;
+    height: 75%;
+    box-shadow: 0px 0px 6.5px rgba(0, 0, 0, 0.044),
+        0px 0px 52px rgba(0, 0, 0, 0.08);
+    filter: contrast(129%) grayscale(100%) invert(100%);
+    border-radius: 18px;
+    display: none;
+    background-color: #1f1f1f !important;
+    background-image: url('data:image/svg+xml,\<svg xmlns="http://www.w3.org/2000/svg" viewBox="-20 -20 40 40">\<style> /* ...YO DAWG... */ circle { animation: 4s a infinite linear, 3s o infinite linear; }\@keyframes a {from{stroke-dasharray:100 0}50%25{stroke-dasharray:0 100}to{stroke-dasharray:100 0}}\@keyframes o {from{stroke-dashoffset:75}to{stroke-dashoffset:375}}\<%2Fstyle><circle r="15.9154943092" stroke-width="7" fill="none" stroke="snow" />\</svg>');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 8%;
+}
+
+
+.progress2 {
+    border-radius: 30px;
+    background-color: #fff;
+}
+
+.progress-bar2 {
+    height: 18px;
+    border-radius: 30px;
+    transition: 0.4s linear;
+    transition-property: width, background-color;
+}
+
+.progress-moved .progress-bar2 {
+    background-color: #f3c623;
+    animation: progress 5s;
+}
+
+.container p {
+    overflow: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    .img-container img {
+        display: none;
+    }
+
+    #mark {
+        right: 39%;
+        top: 18%;
+    }
+}

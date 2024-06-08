@@ -1,0 +1,12 @@
+services:
+  portfolio:
+    image: portfolio:latest
+    container_name: portfolio
+    build: .
+    restart: always
+    networks:
+      - networks
+    
+networks:
+  networks:
+    name: portfolio-network
