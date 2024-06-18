@@ -1,5 +1,7 @@
 #!/bin/bash
 
+git pull
+
 docker compose down
 docker rmi --force portfolio:latest
 
